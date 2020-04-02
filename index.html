@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Game</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+<div class="boxgame">
+    <input type="number" name="button" placeholder="Final-Score" class="winnigscore" >
+    
+    <div class="game-box-player1">
+        <h1 class="winner0">PLAYER 1</h1>
+            <p id="score0">0</p>
+                <div class="currentscore">
+                    <p>Current</p>
+                    <p class="current-score currentscore0">0</p>
+                </div>
+    </div>
+    <div class="game-box-player2">
+        <h1 class="winner1">PLAYER 2</h1>
+            <p id="score1">0</p>
+            <div class="currentscore">
+                  <p>Current</p>
+                  <p class="current-score currentscore1">0</p>
+            </div>
+            <div class="buttons">
+                <input type="button" class="gamebutn" id="rollDice" value="roll dice">
+                <input type="button" class="gamebutn" id="hold" value="hold">
+            </div>
+    </div>
+    <input type="button" value="New Game" class="newgamebutton">
+    <img src="dice-1.png" class="dice">
+    <img src="unnamed.png" class="dot-left active"> 
+    <img src="dot-right.png" class="dot-right"> 
+</div>
+</body>
+
+<script src='script.js'></script>
+</html>

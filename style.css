@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(a1095b9d16a0f05582dfba76c88f16dc.jpg);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.game-box-player1{
+    display: block;
+    background-color: white;
+   
+    width: 40%;
+    height: 80%;
+    position: absolute;
+     margin-top: 5%;
+    margin-left: 9%;
+}
+.game-box-player2{
+    display: block;
+    background-color: white;
+  
+    width: 40%;
+    height: 80%;
+    position: absolute;
+     margin-top: 5%;
+    margin-left: 49%;
+    border-left: none;
+    
+}
+.boxgame{
+    display: block;
+
+    border: white;
+    border-width: 2px;
+    border-style: groove;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+     margin-top: 5%;
+    margin-left: 9%;
+
+}
+.newgamebutton{
+    margin-top: 3px;
+    background-color: #fba65e7a;
+    width: 16%;
+    height: 8%;
+    color: black;
+    z-index: 3;
+    position: absolute;
+    right: 23%;
+   
+}
+h1{
+    color: rgb(161, 109, 12);
+}
+.score{
+    display: block;
+    position: relative;
+    width: 11%;
+    height: 30%;
+    /* margin-right: 45%; */
+    margin-left: 42%;
+    padding: 0%;
+    font-size: 50px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.currentscore{
+    display: block;
+    width: 32%;
+    height: 25%;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 15%;
+    background-color: lightcoral;
+}
+.current-score{
+    font-size: 20px;
+    color: white;
+}
+.buttons{
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 47%;
+    height: 18%;
+    /* margin-left: -13%; */
+    margin-top: 23%;
+    /* margin-bottom: 9%; */
+    padding-left: -19%;
+    right: 75%;
+    top: 47%;
+}
+.gamebutn{
+        /* display: block; */
+    /* position: initial; */
+    width: 65%;
+    height: 45%;
+    background: peachpuff;
+    border-style: dotted;
+    border-radius: 34px;
+    cursor: pointer;
+    transition-duration: 1s;
+    text-decoration: none;
+    
+}
+
+  
+  .gamebutn:hover {
+    background-color: rgb(238, 136, 3); /* Green */
+    
+  }
+ .gamebutn:link{
+     text-decoration: none;
+
+ }
+.gamebutn:focus {outline:0;}
+img{
+   
+    z-index: 5;
+    position: absolute;
+    width: 150px;
+    /* height: 35%; */
+    right: 45%;
+    bottom: 44%;
+    display: none;
+    border-width: none;
+}
+#score0{
+    font-size: 42px;
+}
+#score1{
+    font-size: 42px;
+}
+.dot-left{
+    display: none;
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    top: 19%;
+    left: 17%;
+
+}
+.dot-right{
+    display: none;
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    top: 19%;
+    right: 40.5%;
+
+}
+.active{
+    display: block;
+}
+
+.winnigscore {
+    background-color: khaki;
+    width: 15%;
+    height: 32px;
+    font-size: 20px;
+    transform: translate(-50%);
+    top: 75px;
+    position: fixed;
+    left: 32%
+
+}
+.winnigscore:focus{
+    outline: none;
+}
